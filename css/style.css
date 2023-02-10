@@ -87,3 +87,71 @@ h1 {
     cursor: pointer;
     box-shadow: 40px 40px 30px black;
 }
+/* article */
+article {
+    width: 1440px;
+    height: 857px;
+    top: 3478px;
+    padding: 33px 145px 105px 140px;
+    background-color: #2C2929;
+}
+
+.article_div {
+    display: flex;
+    background-color: #8E8B8B;
+}
+.article_img {
+    width: 50%;
+}
+
+.article_text {
+    width: 45%;
+	padding: 85px 52px;
+	background-color: #8e8b8b;
+	font-size: 36px;
+	font-weight: 400;
+	color: #FFFFFF;
+}
+
+h2 {
+    font-size: 64px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-top: 33px;
+    margin-bottom: 106px;
+    display: flex;
+    justify-content: center;
+}
+
+/* footer */
+footer {
+	width: 1440px;
+    height: 319px;
+	padding: 83px 144px 83px 146px;
+	background-color: #393838;
+    top:4335px ;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.footer_icons{
+	gap: 50px;
+}
+.fa-envelope,
+.fa-instagram,
+.fa-facebook {
+	font-size: 60px;
+	color: #ffffff
+}
+.fa-envelope:hover{
+	cursor: pointer;
+	color: orange;
+}
+.fa-instagram:hover{
+	cursor: pointer;
+	color: rgb(215, 58, 202)
+}
+.fa-facebook:hover{
+	cursor: pointer;
+	color: rgb(39, 39, 177);
+}
